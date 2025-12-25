@@ -1,0 +1,33 @@
+# --- General ---
+.DS_Store
+.env
+*.log
+
+# --- Python / ML (Vertex AI & JAX) ---
+__pycache__/
+*.py[cod]
+venv/
+.ipynb_checkpoints/
+# Don't commit large datasets!
+ml-core/data-pipelines/raw_audio/
+
+# --- Node.js / Firebase ---
+node_modules/
+firebase-debug.log
+
+# --- Flutter / Dart ---
+.dart_tool/
+.packages
+build/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# --- Terraform ---
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# --- Models (Optional: Use Git LFS for these instead) ---
+# *.tflite
+# *.h5
