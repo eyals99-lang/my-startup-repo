@@ -31,3 +31,4 @@ build/
 # --- Models (Optional: Use Git LFS for these instead) ---
 # *.tflite
 # *.h5
+ml-core/data-pipelines/synthetic_data/

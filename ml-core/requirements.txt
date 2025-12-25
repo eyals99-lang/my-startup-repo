@@ -1,0 +1,12 @@
+# --- JAX Ecosystem ---
+jax[cpu]       # לבינתיים נריץ על CPU (בפרודקשן נחליף ל-tpu/gpu)
+flax           # ספריית הרשתות הנוירונים (כמו Keras ל-JAX)
+optax          # אופטימייזרים (כמו Adam)
+
+# --- Data & Audio ---
+numpy
+scipy
+librosa        # עיבוד אודיו סטנדרטי
+soundfile      # קריאה וכתיבה של קבצי WAV
+matplotlib     # ויזואליזציה (לראות את הגלים)
+jupyter        # להרצת ה-Notebooks
